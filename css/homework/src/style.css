@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200&display=swap');
+
+body{
+    margin: 0;
+}
+
+section{
+height: 100vh; /*view height 화면 ㅈ   */
+background:url(../assets/jw1.jpeg) no-repeat;
+background-size: cover;
+}
+
+section:before{
+    content:'';
+    background: linear-gradient(to right, black, transparent);
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 70%;
+
+}
+
+#image{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+h2{
+color: white;
+font-size: 25px;
+
+position: absolute;
+top: 400px;
+left: 100px;
+font-family: 'Montserrat', sans-serif;
+}
+h3{
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 130%;
+    position: absolute;
+    top: 470px;
+    left: 100px;
+    font-family: 'Montserrat', sans-serif ;
+    
+}
+

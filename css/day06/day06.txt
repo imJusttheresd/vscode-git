@@ -1,0 +1,36 @@
+
+
+ transform
+ (변화시킨다)
+
+ * translate (이동, 모달창, 슬라이드 베너)
+
+ * scale (배율, 좌우 반전)
+
+ * rotate (회전, 좌우 반전)
+
+ * skew (경사)
+
+ -------------------------------------------------------------------------------------------
+
+ transition
+ (전환시킨다)
+
+ 요소에 추가할 css 스타일의 전환 효과 및 지속 시간을 설정
+
+ ex) transition: property druation timing-function delay
+
+ transition: all(height, width) 2s ease-in-out 2s
+
+    property : 전환 효과를 적용할 css 속성
+    duration : 걸리는 시간
+    timing-function : 전환 효과의 변화되는 속도값
+    (
+        linear: 일정속도
+        ease: 변화하면서 [ease, ease-in-out, ease-in, ease-out]
+        cubic-bazier(n, n, n, n): 사용자 설정
+    )
+
+    delay :  지연 시간
+
+ -------------------------------------------------------------------------------------------
